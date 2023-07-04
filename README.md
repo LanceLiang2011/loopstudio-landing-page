@@ -6,8 +6,6 @@ This repository is my solution to [Frontend Mentor's](https://www.frontendmentor
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -20,6 +18,8 @@ This repository is my solution to [Frontend Mentor's](https://www.frontendmentor
 - Build out the project to the designs provided
 - Create a fully responsive design
 - Implement mobile hamburger menu toggle with vanilla JS in Astro.build
+
+## My process
 
 ### Built with
 
