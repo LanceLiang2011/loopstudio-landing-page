@@ -1,0 +1,19 @@
+---
+import logo from "../images/logo.svg";
+import HoverLink from "../components/HoverLink.astro";
+---
+
+<nav class="flex items-center justify-between font-bold text-white">
+  <!-- Logo -->
+  <a href="/"><img src={logo} alt="logo" /></a>
+  <!-- Menu -->
+  <div class="hidden h-10 font-alata md:flex md:gap-8">
+    <HoverLink href="about">About</HoverLink>
+    <HoverLink href="careers">Careers</HoverLink>
+    <HoverLink href="events">Events</HoverLink>
+    <HoverLink href="products">Products</HoverLink>
+    <HoverLink href="support">Support</HoverLink>
+  </div>
+  <!-- Hamburger Button -->
+</nav>
+<!-- Moble Modal -->

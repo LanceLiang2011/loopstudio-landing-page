@@ -1,0 +1,9 @@
+---
+const { href = "/" } = Astro.props;
+---
+
+<div class="group">
+  <a href={href}><slot /></a>
+  <!-- Hover over underline effect -->
+  <div class="mx-2 group-hover:border-b-2 group-hover:border-blue-50"></div>
+</div>
