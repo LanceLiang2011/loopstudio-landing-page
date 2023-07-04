@@ -9,13 +9,24 @@ import HamburgerButton from "./HamburgerButton.astro";
   <a href="/"><img src={logo} alt="logo" /></a>
   <!-- Menu -->
   <div class="hidden h-10 font-alata md:flex md:gap-8">
-    <HoverLink href="about">About</HoverLink>
-    <HoverLink href="careers">Careers</HoverLink>
-    <HoverLink href="events">Events</HoverLink>
-    <HoverLink href="products">Products</HoverLink>
-    <HoverLink href="support">Support</HoverLink>
+    <HoverLink href="/about">About</HoverLink>
+    <HoverLink href="/careers">Careers</HoverLink>
+    <HoverLink href="/events">Events</HoverLink>
+    <HoverLink href="/products">Products</HoverLink>
+    <HoverLink href="/support">Support</HoverLink>
   </div>
   <!-- Hamburger Button -->
   <HamburgerButton />
 </nav>
 <!-- Moble Modal -->
+<menu
+  id="modal"
+  class="absolute flex-col top-0 bottom-0 left-0 self-end hidden w-full min-h-screen py-1 pt-40 pl-12 gap-3 text-lg text-white font-light uppercase bg-slate-950"
+>
+  <a class="hover:text-pink-500" href="/">home</a>
+  <a class="hover:text-pink-500" href="/about">about</a>
+  <a class="hover:text-pink-500" href="/careers">careers</a>
+  <a class="hover:text-pink-500" href="/events">events</a>
+  <a class="hover:text-pink-500" href="/products">products</a>
+  <a class="hover:text-pink-500" href="support">support</a>
+</menu>
