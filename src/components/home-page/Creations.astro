@@ -1,0 +1,87 @@
+---
+import Item from "./Item.astro";
+
+import deepEarthDesktop from "../../images/desktop/image-deep-earth.jpg";
+import deepEarthMobile from "../../images/mobile/image-deep-earth.jpg";
+
+import nightArcadeDesktop from "../../images/desktop/image-night-arcade.jpg";
+import nightArcadeMobile from "../../images/mobile/image-night-arcade.jpg";
+
+import soccerTeamDesktop from "../../images/desktop/image-soccer-team.jpg";
+import soccerTeamMobile from "../../images/mobile/image-soccer-team.jpg";
+
+import theGridDesktop from "../../images/desktop/image-grid.jpg";
+import theGridMobile from "../../images/mobile/image-grid.jpg";
+
+import fromUpDesktop from "../../images/desktop/image-from-above.jpg";
+import fromUpMobile from "../../images/mobile/image-from-above.jpg";
+
+import pocketDesktop from "../../images/desktop/image-pocket-borealis.jpg";
+import pocketMobile from "../../images/mobile/image-pocket-borealis.jpg";
+
+import curiosigyDesktop from "../../images/desktop/image-curiosity.jpg";
+import curiosigyMobile from "../../images/mobile/image-curiosity.jpg";
+
+import fisheyeDesktop from "../../images/desktop/image-fisheye.jpg";
+import fisheyeMobile from "../../images/mobile/image-fisheye.jpg";
+---
+
+<section>
+  <div class="section-container my-32">
+    <div class="flex justify-center mb-20 md:justify-between">
+      <h2 class="text-center uppercase md:text-left">Our Creations</h2>
+      <button class="btn hidden md:block">See All</button>
+    </div>
+    <!-- Items row 1-->
+    <div class="items-container">
+      <Item
+        mobileSrc={deepEarthMobile}
+        desktopSrc={deepEarthDesktop}
+        alt="deep earth"
+      />
+      <Item
+        mobileSrc={nightArcadeMobile}
+        desktopSrc={nightArcadeDesktop}
+        alt="night arcade"
+      />
+      <Item
+        mobileSrc={soccerTeamMobile}
+        desktopSrc={soccerTeamDesktop}
+        alt="soccer team vr"
+      />
+      <Item
+        mobileSrc={theGridMobile}
+        desktopSrc={theGridDesktop}
+        alt="the grid"
+      />
+    </div>
+
+    <!-- Items row 2-->
+    <div class="items-container">
+      <Item
+        mobileSrc={fromUpMobile}
+        desktopSrc={fromUpDesktop}
+        alt="from up above vr"
+      />
+      <Item
+        mobileSrc={pocketMobile}
+        desktopSrc={pocketDesktop}
+        alt="pocket borealis"
+      />
+      <Item
+        mobileSrc={curiosigyMobile}
+        desktopSrc={curiosigyDesktop}
+        alt="the curiosity"
+      />
+      <Item
+        mobileSrc={fisheyeMobile}
+        desktopSrc={fisheyeDesktop}
+        alt="make it fisheye"
+      />
+    </div>
+    <!-- Buttom button -->
+    <div class="flex justify-center mt-10 md:hidden">
+      <button class="btn w-full md:hidden">See All</button>
+    </div>
+  </div>
+</section>

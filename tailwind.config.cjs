@@ -16,6 +16,9 @@ module.exports = {
         sans: ["Josefin Sans Variable", ...defaultTheme.fontFamily.sans],
         alata: ["Alata", ...defaultTheme.fontFamily.sans],
       },
+      letterSpacing: {
+        widest: ".4em",
+      },
       backgroundImage: {
         "hero-bg-desktop": "url(/src/images/desktop/image-hero.jpg)",
         "hero-bg-mobile": "url(/src/images/mobile/image-hero.jpg)",

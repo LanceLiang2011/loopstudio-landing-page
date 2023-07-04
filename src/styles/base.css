@@ -2,3 +2,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply font-sans font-light text-4xl text-gray-900 uppercase md:text-5xl;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply container max-w-6xl mx-auto px-6 text-gray-900;
+  }
+
+  .btn {
+    @apply px-10 py-2 my-0 font-bold tracking-widest uppercase border-2 border-black font-alata hover:bg-black hover:text-white;
+  }
+
+  .items-container {
+    @apply flex flex-col justify-between w-full gap-6 mt-6 text-2xl text-white uppercase md:flex-row md:gap-8;
+  }
+}

@@ -1,0 +1,83 @@
+---
+import logo from "../images/logo.svg";
+import HoverLink from "../components/HoverLink.astro";
+
+import facebook from "../images/icon-facebook.svg";
+import twitter from "../images/icon-twitter.svg";
+import pinterest from "../images/icon-pinterest.svg";
+import instagram from "../images/icon-instagram.svg";
+---
+
+<footer class="bg-slate-950">
+  <div class="section-container py-10">
+    <div
+      class="flex flex-col items-center mb-8 gap-6 md:flex-row md:gap-0 md:justify-between md:items-start"
+    >
+      <!-- Menu and logo -->
+      <div class="flex flex-col items-center gap-8 md:items-start md:gap-4">
+        <!-- logo -->
+        <a class="h-8 block" href="/">
+          <img class="w-44 md:ml-3" src={logo} alt="logo" />
+        </a>
+        <!-- menu -->
+        <div
+          class="flex flex-col items-center gap-4 font-bold text-white md:flex-row md:gap-6 md:ml-3"
+        >
+          <HoverLink thin={true} href="about">About</HoverLink>
+          <HoverLink thin={true} href="careers">Careers</HoverLink>
+          <HoverLink thin={true} href="events">Events</HoverLink>
+          <HoverLink thin={true} href="products">Products</HoverLink>
+          <HoverLink thin={true} href="support">Support</HoverLink>
+        </div>
+      </div>
+      <!-- Social media-->
+      <div
+        class="flex flex-col items-center justify-between gap-4 text-gray-500 md:items-start"
+      >
+        <!-- sm icons -->
+        <div class="flex items-center justify-center gap-4 md:justify-end">
+          <!-- FB -->
+          <div class="h-8 group">
+            <a
+              target="_blank"
+              href="https://www.frontendmentor.io/profile/LanceLiang2011"
+            >
+              <img src={facebook} alt="facebook icon" /></a
+            >
+          </div>
+          <!-- Twitter -->
+          <div class="h-8 group">
+            <a
+              target="_blank"
+              href="https://www.frontendmentor.io/profile/LanceLiang2011"
+            >
+              <img src={twitter} alt="twitter icon" /></a
+            >
+          </div>
+          <!-- pinterest -->
+          <div class="h-8 group">
+            <a
+              target="_blank"
+              href="https://www.frontendmentor.io/profile/LanceLiang2011"
+            >
+              <img src={pinterest} alt="pinterest icon" /></a
+            >
+          </div>
+          <!-- instagram -->
+          <div class="h-8 group">
+            <a
+              target="_blank"
+              href="https://www.frontendmentor.io/profile/LanceLiang2011"
+            >
+              <img src={instagram} alt="instagram icon" /></a
+            >
+          </div>
+        </div>
+        <!-- copyright -->
+        <div class="font-bold">
+          &copy; 2022 Loopstudios. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

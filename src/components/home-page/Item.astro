@@ -1,0 +1,25 @@
+---
+const { mobileSrc, desktopSrc, alt } = Astro.props;
+---
+
+<div class="group relative overflow-hidden md:w-1/4">
+  <!-- Dest top -->
+  <img
+    class="hidden w-full transition md:block group-hover:scale-110"
+    src={desktopSrc}
+    alt={alt}
+  />
+  <!-- Movile -->
+  <img class="w-full md:hidden" src={mobileSrc} alt={alt} />
+  <!-- Txt Gradient -->
+  <div
+    class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70"
+  >
+  </div>
+  <!-- Txt -->
+  <h5
+    class="absolute uppercase px-6 transition w-52 bottom-4 md:bottom-8 md:px-10 group-hover:scale-110 group-hover:text-black font-light"
+  >
+    {alt}
+  </h5>
+</div>

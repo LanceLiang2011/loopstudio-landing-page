@@ -1,9 +1,12 @@
 ---
-const { href = "/" } = Astro.props;
+const { href = "/", thin = false } = Astro.props;
 ---
 
 <div class="group">
-  <a href={href}><slot /></a>
+  <a class=`${thin? 'font-light' : 'font-medium'}` href={href}><slot /></a>
   <!-- Hover over underline effect -->
-  <div class="mx-2 group-hover:border-b-2 group-hover:border-blue-50"></div>
+  <div
+    class=`mx-2 ${thin ? 'group-hover:border-b': 'group-hover:border-b-2'} group-hover:border-blue-50`
+  >
+  </div>
 </div>
