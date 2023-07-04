@@ -1,47 +1,35 @@
-# Astro Starter Kit: Minimal
+# Frontend Mentor - Loopstudios Landing Page
 
-```
-npm create astro@latest -- --template minimal
-```
+This repository is my solution to [Frontend Mentor's](https://www.frontendmentor.io) Loopstudios landing page challenge.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Table of contents
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-## 🚀 Project Structure
+## Overview
 
-Inside of your Astro project, you'll see the following folders and files:
+### The challenge
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Build out the project to the designs provided
+- Create a fully responsive design
+- Implement mobile hamburger menu toggle with vanilla JS in Astro.build
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Built with
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- [Astro](https://astro.build/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-Any static assets, like images, can be placed in the `public/` directory.
+### What I learned
 
-## 🧞 Commands
+This project was a great opportunity to practice responsive design techniques and mobile menu toggle implementation with vanilla JavaScript inside an Astro.build environment.
 
-All commands are run from the root of the project, from a terminal:
+## Author
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Frontend Mentor - [@LanceLiang2011](https://www.frontendmentor.io/profile/LanceLiang2011)
